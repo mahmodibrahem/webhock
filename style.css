@@ -1,0 +1,58 @@
+/* إعدادات الخط */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* إعدادات عامة للصفحة */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c2f33;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* تنسيق الحاوية */
+.container {
+    text-align: center;
+    background-color: #23272a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* تنسيق العنوان */
+h1 {
+    color: #7289da;
+}
+
+/* تنسيق النموذج */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #2c2f33;
+    color: #ffffff;
+}
+
+/* تنسيق الزر */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7289da;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a6ba5;
+}
